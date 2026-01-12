@@ -52,7 +52,7 @@ const Settings: React.FC = () => {
   const isDark = state.settings.theme === "dark";
 
   return (
-    <div className="max-w-4xl mx-auto space-y-8 pb-20">
+    <div className=" mx-auto space-y-8 pb-20">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <div className="p-2 bg-cyan-500/10 text-cyan-500 rounded-lg">
@@ -187,7 +187,7 @@ const Settings: React.FC = () => {
                     >
                       Neon Night
                     </p>
-                    <p className="text-[10px] text-slate-500 uppercase tracking-tighter">
+                    <p className="text-[12px] text-slate-500 uppercase tracking-tighter">
                       Recommended for eye preservation
                     </p>
                   </div>
@@ -225,7 +225,7 @@ const Settings: React.FC = () => {
                     >
                       Silicon Day
                     </p>
-                    <p className="text-[10px] text-slate-500 uppercase tracking-tighter">
+                    <p className="text-[12px] text-slate-500 uppercase tracking-tighter">
                       High contrast daylight mode
                     </p>
                   </div>
@@ -249,7 +249,7 @@ const Settings: React.FC = () => {
                   Danger Zone
                 </p>
               </div>
-              <p className="text-[10px] text-slate-500 leading-relaxed font-medium">
+              <p className="text-[14px] text-slate-400 leading-relaxed font-medium">
                 Resetting the data matrix will delete all sales, purchases, and
                 custom stock changes. This action cannot be intercepted once
                 initiated.

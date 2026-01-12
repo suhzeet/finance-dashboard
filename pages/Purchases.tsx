@@ -95,7 +95,7 @@ const Purchases: React.FC = () => {
                 >
                   <td className="py-4 px-2">
                     <p
-                      className={`text-sm font-bold group-hover:text-purple-600 transition-colors font-orbitron ${
+                      className={`text-md font-bold group-hover:text-purple-600 transition-colors  ${
                         isDark ? "text-white" : "text-slate-800"
                       }`}
                     >
@@ -117,7 +117,7 @@ const Purchases: React.FC = () => {
                   <td className="py-4 px-2 text-center text-sm text-slate-500 font-bold">
                     {p.items.length}
                   </td>
-                  <td className="py-4 px-2 text-right text-sm font-bold text-purple-500 font-orbitron">
+                  <td className="py-4 px-2 text-right text-md font-bold text-purple-500 ">
                     Rs.{p.total.toLocaleString()}
                   </td>
                   <td className="py-4 px-2">

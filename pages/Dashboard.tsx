@@ -130,7 +130,7 @@ const Dashboard: React.FC = () => {
                 Today's Revenue
               </p>
               <h4
-                className={`text-xl font-bold font-orbitron ${
+                className={`text-2xl font-bold  ${
                   isDark ? "text-white" : "text-slate-900"
                 }`}
               >
@@ -154,7 +154,7 @@ const Dashboard: React.FC = () => {
                 Month Sales
               </p>
               <h4
-                className={`text-xl font-bold font-orbitron ${
+                className={`text-2xl font-bold ${
                   isDark ? "text-white" : "text-slate-900"
                 }`}
               >
@@ -178,7 +178,7 @@ const Dashboard: React.FC = () => {
                 Estimated Profit
               </p>
               <h4
-                className={`text-xl font-bold font-orbitron ${
+                className={`text-2xl font-bold  ${
                   isDark ? "text-white" : "text-slate-900"
                 }`}
               >
@@ -202,7 +202,7 @@ const Dashboard: React.FC = () => {
                 Low Stock
               </p>
               <h4
-                className={`text-2xl font-bold font-orbitron ${
+                className={`text-2xl font-bold  ${
                   isDark ? "text-white" : "text-slate-900"
                 }`}
               >
